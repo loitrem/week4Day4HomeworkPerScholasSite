@@ -1,0 +1,2720 @@
+@media screen and (min-width: 1600px) {
+    .headerWrapper {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        background-color: white;
+        border-bottom: 2px solid #0079c0;
+    }
+    .leftHeader {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .psLogo {
+        width: 80%;
+    }
+    
+    .rightHeader {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .headerLinkWrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .headerLink {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+    .headerLink:hover {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 121, 192, 1);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+
+    .headerMenu {
+        display: none;
+    }
+    .mainContent {
+        background-color: #f5f5f4;
+    }
+
+    .topPics {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .topImgLeft {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1500x1500.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+    }
+    .messageBoxLeft {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -200px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .blMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .blBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .blHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .blIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .blTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .blText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .blLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+        
+    }
+
+    
+    .topImgRight {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+    }
+
+    .messageBoxRight {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -200px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .brMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .brBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .brHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .brIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .brTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .brText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    
+    }
+
+    .brLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+    
+    }
+
+    .headerMenu {
+        display: none;
+    }
+    .menu {
+        height: 35px;
+        width: 35px;
+    }
+
+    .unlockingPotential {
+        background-color: #f5f5f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .upTitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 35px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upVid {
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 100%;
+        background-position: center;
+    }
+    .upVid:hover{
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .upVid:hover .play{
+        background-color: #09507C;
+    }
+
+    .play {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #0079c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #09507C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playArrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 14px 0 14px;
+        border-color: #cfd8dc transparent transparent transparent;
+        transform: rotate(-90deg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 55px;
+    }
+
+    .carousel {
+        width: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+
+    .topCarousel {
+        display: flex;
+    }
+
+    .topLeftCarousel {
+        width: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .topRightCarousel {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .linkSpacer {
+        width: 15%;
+        min-width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .bottomCarousel {
+        display: flex;
+    }
+
+    .carouselOl {
+        display: flex;
+        width: 100%;
+    }
+
+    .carousel1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel1Hide {
+        display: none;
+    }
+
+    .carousel2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel2Hide {
+        display: none;
+    }
+
+    .carouselItem {
+        width: 212px;
+        height: 132px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carouselImg {
+        max-width: 212px;
+        max-height: 132px;
+    }
+
+    .supportWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBox {
+        height: 550px;
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 35px 35px 0px rgb(52, 52, 52);
+        background-color: rgba(0, 121, 192, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .supportLeft {
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/support-cta1-1000x667.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+    }
+
+    .supportRight {
+        width: 59%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supportHeader {
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .supportText{
+        width: 80%;
+        margin-top: 30px;
+        font-size: 21px;
+        color: white;
+    }
+
+    .supportButton {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBtn {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .supportBtn:hover {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background-position: left bottom;
+    }
+
+    .spacer{
+        height: 150px;
+        width: 100%;
+        background-color: white;
+    }
+
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+    .headerWrapper {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        background-color: white;
+        border-bottom: 2px solid #0079c0;
+    }
+    .leftHeader {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .psLogo {
+        width: 80%;
+    }
+    
+    .rightHeader {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .headerLinkWrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .headerLink {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+    .headerLink:hover {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 121, 192, 1);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .mainContent {
+        background-color: #f5f5f4;
+    }
+
+    .topPics {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .topImgLeft {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1500x1500.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+    }
+    .messageBoxLeft {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -200px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .blMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .blBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .blHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .blIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .blTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .blText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .blLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+        
+    }
+
+    
+    .topImgRight {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+    }
+
+    .messageBoxRight {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -200px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .brMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .brBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .brHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .brIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .brTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .brText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    
+    }
+
+    .brLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+    
+    }
+
+    .headerMenu {
+        display: none;
+    }
+    .menu {
+        height: 35px;
+        width: 35px;
+    }
+
+    .unlockingPotential {
+        background-color: #f5f5f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .upTitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 35px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upVid {
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 100%;
+        background-position: center;
+    }
+    .upVid:hover{
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .upVid:hover .play{
+        background-color: #09507C;
+    }
+
+    .play {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #0079c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #09507C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playArrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 14px 0 14px;
+        border-color: #cfd8dc transparent transparent transparent;
+        transform: rotate(-90deg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 55px;
+    }
+
+    .carousel {
+        width: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 1200px;
+    }
+
+    .topCarousel {
+        display: flex;
+    }
+
+    .topLeftCarousel {
+        width: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .topRightCarousel {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .linkSpacer {
+        width: 15%;
+        min-width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .bottomCarousel {
+        display: flex;
+    }
+
+    .carouselOl {
+        display: flex;
+        width: 100%;
+    }
+
+    .carousel1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel1Hide {
+        display: none;
+    }
+
+    .carousel2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel2Hide {
+        display: none;
+    }
+
+    .carouselItem {
+        width: 212px;
+        height: 132px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carouselImg {
+        max-width: 212px;
+        max-height: 132px;
+    }
+
+    .supportWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBox {
+        height: 550px;
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 35px 35px 0px rgb(52, 52, 52);
+        background-color: rgba(0, 121, 192, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .supportLeft {
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/support-cta1-1000x667.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+    }
+
+    .supportRight {
+        width: 59%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supportHeader {
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .supportText{
+        width: 80%;
+        margin-top: 30px;
+        font-size: 21px;
+        color: white;
+    }
+
+    .supportButton {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBtn {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .supportBtn:hover {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background-position: left bottom;
+    }
+
+    .spacer{
+        height: 150px;
+        width: 100%;
+        background-color: white;
+    }
+
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1220px) and (max-width: 1400px) {
+    .headerWrapper {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        background-color: white;
+        border-bottom: 2px solid #0079c0;
+    }
+    .leftHeader {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .psLogo {
+        width: 80%;
+    }
+    
+    .rightHeader {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .headerLinkWrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .headerLink {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+    .headerLink:hover {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 121, 192, 1);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        padding: 8px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .mainContent {
+        background-color: #f5f5f4;
+    }
+
+    .topPics {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .topImgLeft {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1500x1500.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 200px;
+    }
+    .messageBoxLeft {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .blMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .blBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .blHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .blIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .blTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .blText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .blLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+        
+    }
+
+    
+    .topImgRight {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 300px;
+    }
+
+    .messageBoxRight {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .brMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .brBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .brHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .brIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .brTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .brText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    
+    }
+
+    .brLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+    
+    }
+
+    .headerMenu {
+        display: none;
+    }
+    .menu {
+        height: 35px;
+        width: 35px;
+    }
+
+    .unlockingPotential {
+        background-color: #f5f5f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 300px;
+    }
+    .upTitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 35px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upVid {
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 100%;
+        background-position: center;
+    }
+    .upVid:hover{
+        height: 500px;
+        width: 900px;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .upVid:hover .play{
+        background-color: #09507C;
+    }
+
+    .play {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #0079c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #09507C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playArrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 14px 0 14px;
+        border-color: #cfd8dc transparent transparent transparent;
+        transform: rotate(-90deg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 55px;
+    }
+
+    .carousel {
+        width: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 1200px;
+    }
+
+    .topCarousel {
+        display: flex;
+    }
+
+    .topLeftCarousel {
+        width: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .topRightCarousel {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .linkSpacer {
+        width: 15%;
+        min-width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .bottomCarousel {
+        display: flex;
+    }
+
+    .carouselOl {
+        display: flex;
+        width: 100%;
+    }
+
+    .carousel1 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel1Hide {
+        display: none;
+    }
+
+    .carousel2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel2Hide {
+        display: none;
+    }
+
+    .carouselItem {
+        width: 212px;
+        height: 132px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carouselImg {
+        max-width: 212px;
+        max-height: 132px;
+    }
+
+    .supportWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBox {
+        height: 550px;
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 35px 35px 0px rgb(52, 52, 52);
+        background-color: rgba(0, 121, 192, 1);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .supportLeft {
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/support-cta1-1000x667.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 40%;
+        min-width:450px;
+    }
+
+    .supportRight {
+        width: 59%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supportHeader {
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .supportText{
+        width: 80%;
+        margin-top: 30px;
+        font-size: 21px;
+        color: white;
+    }
+
+    .supportButton {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBtn {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .supportBtn:hover {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background-position: left bottom;
+    }
+
+    .spacer{
+        height: 150px;
+        width: 100%;
+        background-color: white;
+    }
+
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (min-width: 1100px) and (max-width: 1220px) {
+    .headerWrapper {
+        width: 100%;
+        height: 110px;
+        display: flex;
+        background-color: white;
+        border-bottom: 2px solid #0079c0;
+    }
+    .leftHeader {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .psLogo {
+        width: 80%;
+    }
+    
+    .rightHeader {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .headerLinkWrapper {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .headerLink {
+        font-size: 16px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 8px;
+    }
+    .headerLink:hover {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        background-color: rgba(0, 121, 192, 1);
+        border-radius: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 8px;
+    }
+    .headerMenu {
+        display: none;
+    }
+    .mainContent {
+        background-color: #f5f5f4;
+    }
+
+    .topPics {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .topImgLeft {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1500x1500.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 200px;
+    }
+    .messageBoxLeft {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .blMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .blBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .blHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .blIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .blTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .blText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .blLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+        
+    }
+
+    
+    .topImgRight {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 300px;
+    }
+
+    .messageBoxRight {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .brMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .brBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .brHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .brIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .brTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .brText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    
+    }
+
+    .brLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+    
+    }
+
+    .headerMenu {
+        display: none;
+    }
+    .menu {
+        height: 35px;
+        width: 35px;
+    }
+
+    .unlockingPotential {
+        background-color: #f5f5f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 400px;
+    }
+    .upTitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 35px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upVid {
+        height: 500px;
+        max-width: 900px;
+        width: 100%;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 100%;
+        background-position: center;
+    }
+    .upVid:hover{
+        height: 500px;
+        max-width: 900px;
+        width: 100%;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .upVid:hover .play{
+        background-color: #09507C;
+    }
+
+    .play {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #0079c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #09507C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playArrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 14px 0 14px;
+        border-color: #cfd8dc transparent transparent transparent;
+        transform: rotate(-90deg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 55px;
+    }
+
+    .carousel {
+        width: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 700px;
+    }
+
+    .topCarousel {
+        display: flex;
+    }
+
+    .topLeftCarousel {
+        width: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .topRightCarousel {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .linkSpacer {
+        width: 15%;
+        min-width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .bottomCarousel {
+        display: flex;
+    }
+
+    .carouselOl {
+        display: flex;
+        width: 100%;
+    }
+
+    .carousel1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel1Hide {
+        display: none;
+    }
+
+    .carousel2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel2Hide {
+        display: none;
+    }
+
+    .carouselItem {
+        width: 212px;
+        height: 132px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carouselImg {
+        max-width: 212px;
+        max-height: 132px;
+    }
+
+    .supportWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBox {
+        
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 35px 35px 0px rgb(52, 52, 52);
+        background-color: rgba(0, 121, 192, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .supportLeft {
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/support-cta1-1000x667.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 80%;
+        min-width:450px;
+    }
+
+    .supportRight {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supportHeader {
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .supportText{
+        width: 80%;
+        margin-top: 30px;
+        font-size: 21px;
+        color: white;
+    }
+
+    .supportButton {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBtn {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .supportBtn:hover {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background-position: left bottom;
+    }
+
+    .spacer{
+        height: 150px;
+        width: 100%;
+        background-color: white;
+    }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and (max-width: 1100px) {
+    .headerWrapper {
+        width: 100%;
+        height: 75px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-bottom: 2px solid #0079c0;
+    }
+    .leftHeader {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+   
+    }
+    .psLogo {
+        width: 100%;
+    }
+    
+    .rightHeader {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .headerLinkWrapper {
+        display: flex;
+        justify-content: right;
+        width: 100%;
+  
+    }
+
+    /* w3 schools code */
+    .headerLink {
+        display: none;
+    }
+    .headerMenu {
+        margin-right: 30px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .menuDropContent{
+        display: none;
+        position: absolute;
+        right: 0px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        width: 250px;
+    }
+
+    .menuLink{
+        font-weight: bold;
+        border-bottom: 1px solid lightgray;
+        padding: 5px;
+    }
+
+    .menuLink:hover{
+        font-weight: bold;
+        color: white;
+        border-bottom: 1px solid rgba(0, 121, 192, 1);
+        background-color: rgba(0, 121, 192, 1);
+        padding: 5px;
+    }
+
+    .headerMenu:hover .menuDropContent {
+        display: block;
+      }
+
+    .menu {
+        height: 35px;
+        width: 35px;
+    }
+    .mainContent {
+        background-color: #f5f5f4;
+    }
+
+    .topPics {
+        height: 900px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .topImgLeft {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/20190625-143859-_DSC5051-scaled1-1500x1500.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 200px;
+    }
+    .messageBoxLeft {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .blMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .blBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .blHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .blIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .blTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .blText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .blLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .blLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+        
+    }
+
+    
+    .topImgRight {
+        width: 40%;
+        height: 50%;
+        min-width: 600px;
+        background-image: url('https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg');
+        background-size:cover;
+        background-position: top center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        box-shadow: 35px -35px 0px rgba(0, 121, 192, 1);
+        border-radius: 15px;
+        margin-top: 300px;
+    }
+
+    .messageBoxRight {
+        width: 80%;
+        height: auto;
+        position: relative;
+        bottom: -250px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        box-shadow: 5px 5px 10px black;
+    }
+
+    .brMessageWrapper {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .brBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .brHeader {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .brIcon{
+        height: 22px;
+        width: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .brTitle {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    .brText {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .brLink {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    
+    }
+
+    .brLink:hover {
+        width: 80%;
+        height: 40px;
+        font-size: 18px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fec14f;
+        margin-left: auto;
+        margin-right: auto;
+        background-position: left bottom;
+    
+    }
+
+    .unlockingPotential {
+        background-color: #f5f5f4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 400px;
+    }
+    .upTitle {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 35px;
+        width: 60%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .upVid {
+        height: 500px;
+        max-width: 900px;
+        width: 100%;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 100%;
+        background-position: center;
+    }
+    .upVid:hover{
+        height: 500px;
+        max-width: 900px;
+        width: 100%;
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/screen.jpg");
+        background-size: cover;
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-size 1s ease;
+        background-size: 110%;
+        background-position: center;
+    }
+
+    .upVid:hover .play{
+        background-color: #09507C;
+    }
+
+    .play {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #0079c0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .play:hover {
+        height: 120px;
+        width: 120px;
+        border-radius: 60px;
+        background-color: #09507C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .playArrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 20px 14px 0 14px;
+        border-color: #cfd8dc transparent transparent transparent;
+        transform: rotate(-90deg);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carouselWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        margin-bottom: 55px;
+    }
+
+    .carousel {
+        width: 80%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 15px;
+        min-width: 700px;
+    }
+
+    .topCarousel {
+        display: flex;
+    }
+
+    .topLeftCarousel {
+        width: 50%;
+        font-size: 24px;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+
+    .topRightCarousel {
+        width: 50%;
+        display: flex;
+        justify-content: right;
+    }
+
+    .linkSpacer {
+        width: 15%;
+        min-width: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .bottomCarousel {
+        display: flex;
+    }
+
+    .carouselOl {
+        display: flex;
+        width: 100%;
+    }
+
+    .carousel1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel1Hide {
+        display: none;
+    }
+
+    .carousel2 {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .carousel2Hide {
+        display: none;
+    }
+
+    .carouselItem {
+        width: 212px;
+        height: 132px;
+        display: flex;
+        align-items: center;
+    }
+
+    .carouselImg {
+        max-width: 212px;
+        max-height: 132px;
+    }
+
+    .supportWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBox {
+        
+        width: 80%;
+        border-radius: 15px;
+        box-shadow: 35px 35px 0px rgb(52, 52, 52);
+        background-color: rgba(0, 121, 192, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .supportLeft {
+        background-image: url("https://perscholas.org/wp-content/uploads/2023/05/support-cta1-1000x667.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 80%;
+        min-width:450px;
+    }
+
+    .supportRight {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .supportHeader {
+        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .supportText{
+        width: 80%;
+        margin-top: 30px;
+        font-size: 21px;
+        color: white;
+    }
+
+    .supportButton {
+        width: 80%;
+        display: flex;
+        justify-content: left;
+    }
+
+    .supportBtn {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background: linear-gradient(to right,#F58832 50%, #FEC14F 50%);
+        background-size: 200% 100%;
+        transition: all .2s ease-out;
+        background-position: right bottom;
+    }
+
+    .supportBtn:hover {
+        height: 46px;
+        width: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        font-size: 18px;
+        font-weight: bold;
+        background-position: left bottom;
+    }
+
+    .spacer{
+        height: 150px;
+        width: 100%;
+        background-color: white;
+    }
+
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+body {
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.search {
+    height: 15px;
+    width: 15px;
+}
+
+.mainHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
