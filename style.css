@@ -819,6 +819,9 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
+        
+    
+       
     }
     .upTitle {
         font-size: 40px;
@@ -1352,7 +1355,7 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 50px;
-        margin-top: 300px;
+        margin-top: 400px;
     }
     .upTitle {
         font-size: 40px;
@@ -2585,6 +2588,7 @@
 
     .carousel2 {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         width: 100%;
     }
